@@ -1,0 +1,25 @@
+{
+  "name": "yascm",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  },
+  "description": "add some color to your console output son!",
+  "keywords": [
+    "shellcolor"
+  ],
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R spec"
+  },
+  "repository": "https://github.com/yxa/yascm.git",
+  "type": "git", 
+  "author": "Torbjorn Josefsson <torbjorn.josefsson@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
