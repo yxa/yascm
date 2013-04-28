@@ -28,10 +28,6 @@ describe('Yet Another Shell Color Module', function() {
     expect(yascm('u','underlined')).to.eql(colors.escape + colors.open.u + 'underlined' + colors.reset);
     done();
   });
-  it('should make the output crossed out', function(done) {
-    expect(yascm('crossed-out','foo@bar.com')).to.eql(colors.escape + colors.open['crossed-out'] + 'foo@bar.com' + colors.reset);
-    done();
-  });
   it('should create background color', function(done) {
     expect(yascm('bg-red','redbackground')).to.eql(colors.escape + colors.open['bg-red'] + 'redbackground' + colors.reset);
     done();

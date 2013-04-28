@@ -1,1 +1,1 @@
-# Yet Another Shell Color Module
+# Yet Another Shell Color Module (Not Published)
